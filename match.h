@@ -1,30 +1,24 @@
-/*
- *  partida.h
- *  barquitos
- *
- *  Created by Pedro on 18/03/05.
- *  Copyright 2005 __MyCompanyName__. All rights reserved.
- *
- */
+/* Is a game to play boat battleship using network
+    Copyright (C) 2004  <pedro.fraca@gmail.com>
 
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.*/
 
 
 #include <player.h>
 #define retries 50
 #define buffer 256
-//Para identificar a los barcos unicamente en el tablero los numeraremos por orden de 
-//introduccion: Es decir el barco de mayor longitud recibira el valor 1 asi hasta 10, decrementando 
-//las longitudes de los barcos. Quedando los valores as:
-//4->1
-//3->2
-//3->3
-//2->4
-//2->5
-//2->6
-//1->7
-//1->8
-//1->9
-//1->10
+
 
 class match
 {
